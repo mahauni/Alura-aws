@@ -38,5 +38,7 @@ o auto scaling cria instancias na vpc que voce selecionou e apenas nas sub redes
 o balanciamento de carga (load balancer) é opicional, porém se você esta usando load balancer na sua aplicação é necessario colocar o auto scaling no target group que esta o load balancer. O mesmo acontece para todas as outras opções.
 o auto scaling tem suas proprias instancias. Então se você tiver instancias que estão rodando separadamente do auto scaling e estão no target group, elas não serão contadas no auto scaling.
 
-AWS CLI
+### AWS CLI
 
+em vez de utilizar a pagina da web da aws, da para fazer todas as coisas no cli do seu computador.
+muita atenção ao tentar utilizar o cli, pois tem muitos passos para configurar e deixar seguro.
