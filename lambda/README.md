@@ -11,7 +11,11 @@ Upload files from the computer to the s3 bucket
 It will upload all the files that ARE NOT IN THE BUCKET. Other files that already exist in the bucket it will not delete it.
 
 ```bash
-$ aws s3 sync . s3://bucket-name
+$ aws s3 sync ./images s3://bucket-name
+
+Copiar apenas uma imagem
+
+$ aws s3 cp [file_name] s3://bucket-name
 ```
 
 ### Ver a coleção dentro do rekognition dentro do aws cli
